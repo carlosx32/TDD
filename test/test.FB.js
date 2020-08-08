@@ -9,7 +9,7 @@ describe('FizBuzz',()=>{
     it('Shuld return fizz for 3*x',()=>{
         expect(fizzbuzz(3)).to.eql('fizz');
     });
-    it('Shuld return fizz for 3*x',()=>{
+    it('Shuld return buzz for 3*x',()=>{
         expect(fizzbuzz(3)).to.eql('buzz');
     });
 
