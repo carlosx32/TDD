@@ -6,8 +6,6 @@ jobs:
     docker:
       - image: circleci/node
     steps:
-      working_directory: backend_node
-
       - checkout
       - run:
           name: instalando dependencias
