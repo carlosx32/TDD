@@ -7,10 +7,12 @@ describe('FizBuzz',()=>{
         expect(fizzbuzz(3)).to.eql('3');
     });
     it('Shuld return fizz for 3*x',()=>{
-        expect(fizzbuzz(3)).to.eql('fizz');
+        expect(fizzbuzz(21)).to.eql('fizz');
     });
     it('Shuld return buzz for 3*x',()=>{
-        expect(fizzbuzz(3)).to.eql('buzz');
+        expect(fizzbuzz(10)).to.eql('buzz');
     });
-
+    it('Shuld return fizzbuzz for 5*3*x',()=>{
+        expect(fizzbuzz(15)).to.eql('fizzbuzz');
+    });
 });
